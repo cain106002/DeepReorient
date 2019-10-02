@@ -9,7 +9,8 @@ manual
 4) create tensorflow/keras running envirement. Here we recommend to use virtual enviroment by Anaconda3.x (https://www.anaconda.com/distribution/). Here we would show an example for Windows user. It is similar for Linux user.
 5) open Anaconda Prompt in the start menu
 
-step 6-8 were only done at first run
+step 6-9 were only done at first run
+
 6) create a virtual enviroment: conda -n DRT python=3.6
 7) activate virutal enviroment: conda activate DRT
 8) install tensorflow cpu version: pip install tensorflow

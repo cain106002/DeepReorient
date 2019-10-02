@@ -21,8 +21,11 @@ step 6-9 were only done at first run
 10) run MATLAB in Anaconda Prompt: conda activate DRT then run matlab at the same prompt 
 11) save the dir storing F_deep_reorient.m in the PATH of matlab
 12) structure the 3DT1 images as below
+    
     DATA_PATH-----sub01-----anat.nii
-             -----sub02-----anat.nii
-             -----sub03-----anat.nii
+    
+                -----sub02-----anat.nii
+             
+                -----sub03-----anat.nii
 13) run F_deep_reorient(PATH_STORING_MRI_DATA,PATH_OUTPUT,PATH_OF_EMPTY_TEMPORAY_DIR)
 14) the reoriented MRI data were stored in PATH_OUTPUT.

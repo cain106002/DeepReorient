@@ -4,7 +4,7 @@ DeepReorient is a tool used for Automated Reorient of 3DT1 MRI brain images.
 manual
 1) download the F_deep_reorient.m and F_Reorient.py
 2) download the keras models:
-   Deep_Reorient.7z at
+   Deep_Reorient.7z at https://pan.baidu.com/s/1FC5DmrHD0NLZLx3LwNLwjg
 3) uncompress Deep_Reorient.7z an then put the six .h5 files with the same folder of F_deep_reorient.m and F_Reorient.py
 4) create tensorflow/keras running envirement. Here we recommend to use virtual enviroment by Anaconda3.x (https://www.anaconda.com/distribution/). Here we would show an example for Windows user. It is similar for Linux user.
 5) open Anaconda Prompt in the start menu

@@ -14,11 +14,14 @@ step 6-9 were only done at first run
 6) create a virtual enviroment: conda -n DRT python=3.6
 7) activate virutal enviroment: conda activate DRT
 8) install tensorflow cpu version: pip install tensorflow
+
    if the user have CUDA compatible GPU card (nVidia GTX 2060 or above was recommended), you could try the gpu version:
    pip install tensorflow-gpu
 9) install keras: pip install keras
 
-10) run MATLAB in Anaconda Prompt: conda activate DRT then run matlab at the same prompt 
+10) run MATLAB in Anaconda Prompt: conda activate DRT 
+
+    then run matlab at the same prompt 
 11) save the dir storing F_deep_reorient.m in the PATH of matlab
 12) structure the 3DT1 images as below
     

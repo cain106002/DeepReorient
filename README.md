@@ -1,5 +1,5 @@
-# DeepReorient
-DeepReorient is a tool used for Automated Reorient of 3DT1 MRI brain images.
+# FAIRT
+FAIRT is a Fast Automated Image Reorient Took for human brain 3DT1 MRI image.
 
 manual
 1) download the F_deep_reorient.m and F_Reorient.py

@@ -8,7 +8,8 @@ manual
 
    the six .h5 files at https://github.com/cain106002/FAIRT/releases/latest
    
-   For Chinese User, the models could also be downloaded at https://pan.baidu.com/s/1FC5DmrHD0NLZLx3LwNLwjg
+   For Chinese User, the .h5 files could also be downloaded at https://pan.baidu.com/s/18bvwnmvWpMHukmq_MNOmbQ 
+Password：4s5m
 3) put the six .h5 files with the same folder of F_deep_reorient.m and F_Reorient.py
 4) create tensorflow/keras running envirement. Here we recommend to use virtual enviroment by Anaconda3.x (https://www.anaconda.com/distribution/). Here we would show an example for Windows user. It is similar for Linux user.
 5) open Anaconda Prompt in the start menu

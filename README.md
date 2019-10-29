@@ -2,7 +2,7 @@
 FAIRT is a Fast Automated Image Reorient Tool for human brain 3DT1 MRI image.
 It could be also found at https://gitee.com/heng1988/FAIRT
 
-DATA_TEST.rar is a testing dataset.
+DATA_TEST.rar is a testing dataset. one example course of FAIRT.pdf is one example.
 
 manual
 1) download the F_deep_reorient.m and F_Reorient.py. One function (y_Reslice.m) from DPABI was used in the code, so SPM and DPABI were required.

@@ -130,12 +130,9 @@ for i = 1:length(subs)
     head_org_mat = head_org.mat;
     load([tmp_path,filesep,sub_name,filesep,'data_he.mat'],'head4_mat','point_st');
     
-    load([tmp_path,filesep,sub_name,filesep,'DR_para_rot12.mat'],'rot12');
-    load([tmp_path,filesep,sub_name,filesep,'DR_para_rot13.mat'],'rot13');
-    load([tmp_path,filesep,sub_name,filesep,'DR_para_rot23.mat'],'rot23');
-    load([tmp_path,filesep,sub_name,filesep,'DR_para_mov1.mat'],'mov1');
-    load([tmp_path,filesep,sub_name,filesep,'DR_para_mov2.mat'],'mov2');
-    load([tmp_path,filesep,sub_name,filesep,'DR_para_mov3.mat'],'mov3');
+    load([tmp_path,filesep,sub_name,filesep,'DR_para_rot.mat'],'rot12','rot13','rot23');
+    load([tmp_path,filesep,sub_name,filesep,'DR_para_mov.mat'],'mov1','mov2','mov3');
+
     rsc4_tmp = [[mov1;mov2;mov3]-point_st;1];
     mni4_tmp = head4_mat*rsc4_tmp;
     rsc_org_tmp = head_org_mat\mni4_tmp;
